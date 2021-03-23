@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
+<div id="app">
 <div class="wrapper">
 
     <!-- Navbar -->
@@ -172,7 +173,6 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="index3.html" class="brand-link">
-            <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">AdminLTE 3</span>
         </a>
 
@@ -180,9 +180,6 @@
         <div class="sidebar">
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                <div class="image">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                </div>
                 <div class="info">
                     <a href="#" class="d-block">Alexander Pierce</a>
                 </div>
@@ -205,7 +202,7 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
-                    <li class="nav-item menu-open">
+<!--                    <li class="nav-item menu-open">
                         <a href="#" class="nav-link active">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>
@@ -835,7 +832,7 @@
                             <i class="nav-icon far fa-circle text-info"></i>
                             <p>Informational</p>
                         </a>
-                    </li>
+                    </li>-->
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
@@ -844,32 +841,32 @@
     </aside>
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
+<!--    <div class="content-wrapper">
+        &lt;!&ndash; Content Header (Page header) &ndash;&gt;
         <div class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
                         <h1 class="m-0">Dashboard</h1>
-                    </div><!-- /.col -->
+                    </div>&lt;!&ndash; /.col &ndash;&gt;
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
                             <li class="breadcrumb-item active">Dashboard v1</li>
                         </ol>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
+                    </div>&lt;!&ndash; /.col &ndash;&gt;
+                </div>&lt;!&ndash; /.row &ndash;&gt;
+            </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
         </div>
-        <!-- /.content-header -->
+        &lt;!&ndash; /.content-header &ndash;&gt;
 
-        <!-- Main content -->
+        &lt;!&ndash; Main content &ndash;&gt;
         <section class="content">
             <div class="container-fluid">
-                <!-- Small boxes (Stat box) -->
+                &lt;!&ndash; Small boxes (Stat box) &ndash;&gt;
                 <div class="row">
                     <div class="col-lg-3 col-6">
-                        <!-- small box -->
+                        &lt;!&ndash; small box &ndash;&gt;
                         <div class="small-box bg-info">
                             <div class="inner">
                                 <h3>150</h3>
@@ -882,9 +879,9 @@
                             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
-                    <!-- ./col -->
+                    &lt;!&ndash; ./col &ndash;&gt;
                     <div class="col-lg-3 col-6">
-                        <!-- small box -->
+                        &lt;!&ndash; small box &ndash;&gt;
                         <div class="small-box bg-success">
                             <div class="inner">
                                 <h3>53<sup style="font-size: 20px">%</sup></h3>
@@ -897,9 +894,9 @@
                             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
-                    <!-- ./col -->
+                    &lt;!&ndash; ./col &ndash;&gt;
                     <div class="col-lg-3 col-6">
-                        <!-- small box -->
+                        &lt;!&ndash; small box &ndash;&gt;
                         <div class="small-box bg-warning">
                             <div class="inner">
                                 <h3>44</h3>
@@ -912,9 +909,9 @@
                             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
-                    <!-- ./col -->
+                    &lt;!&ndash; ./col &ndash;&gt;
                     <div class="col-lg-3 col-6">
-                        <!-- small box -->
+                        &lt;!&ndash; small box &ndash;&gt;
                         <div class="small-box bg-danger">
                             <div class="inner">
                                 <h3>65</h3>
@@ -927,14 +924,14 @@
                             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
-                    <!-- ./col -->
+                    &lt;!&ndash; ./col &ndash;&gt;
                 </div>
-                <!-- /.row -->
-                <!-- Main row -->
+                &lt;!&ndash; /.row &ndash;&gt;
+                &lt;!&ndash; Main row &ndash;&gt;
                 <div class="row">
-                    <!-- Left col -->
+                    &lt;!&ndash; Left col &ndash;&gt;
                     <section class="col-lg-7 connectedSortable">
-                        <!-- Custom tabs (Charts with tabs)-->
+                        &lt;!&ndash; Custom tabs (Charts with tabs)&ndash;&gt;
                         <div class="card">
                             <div class="card-header">
                                 <h3 class="card-title">
@@ -951,10 +948,10 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div><!-- /.card-header -->
+                            </div>&lt;!&ndash; /.card-header &ndash;&gt;
                             <div class="card-body">
                                 <div class="tab-content p-0">
-                                    <!-- Morris chart - Sales -->
+                                    &lt;!&ndash; Morris chart - Sales &ndash;&gt;
                                     <div class="chart tab-pane active" id="revenue-chart"
                                          style="position: relative; height: 300px;">
                                         <canvas id="revenue-chart-canvas" height="300" style="height: 300px;"></canvas>
@@ -963,11 +960,11 @@
                                         <canvas id="sales-chart-canvas" height="300" style="height: 300px;"></canvas>
                                     </div>
                                 </div>
-                            </div><!-- /.card-body -->
+                            </div>&lt;!&ndash; /.card-body &ndash;&gt;
                         </div>
-                        <!-- /.card -->
+                        &lt;!&ndash; /.card &ndash;&gt;
 
-                        <!-- DIRECT CHAT -->
+                        &lt;!&ndash; DIRECT CHAT &ndash;&gt;
                         <div class="card direct-chat direct-chat-primary">
                             <div class="card-header">
                                 <h3 class="card-title">Direct Chat</h3>
@@ -985,78 +982,78 @@
                                     </button>
                                 </div>
                             </div>
-                            <!-- /.card-header -->
+                            &lt;!&ndash; /.card-header &ndash;&gt;
                             <div class="card-body">
-                                <!-- Conversations are loaded here -->
+                                &lt;!&ndash; Conversations are loaded here &ndash;&gt;
                                 <div class="direct-chat-messages">
-                                    <!-- Message. Default to the left -->
+                                    &lt;!&ndash; Message. Default to the left &ndash;&gt;
                                     <div class="direct-chat-msg">
                                         <div class="direct-chat-infos clearfix">
                                             <span class="direct-chat-name float-left">Alexander Pierce</span>
                                             <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                         </div>
-                                        <!-- /.direct-chat-infos -->
+                                        &lt;!&ndash; /.direct-chat-infos &ndash;&gt;
                                         <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
-                                        <!-- /.direct-chat-img -->
+                                        &lt;!&ndash; /.direct-chat-img &ndash;&gt;
                                         <div class="direct-chat-text">
                                             Is this template really for free? That's unbelievable!
                                         </div>
-                                        <!-- /.direct-chat-text -->
+                                        &lt;!&ndash; /.direct-chat-text &ndash;&gt;
                                     </div>
-                                    <!-- /.direct-chat-msg -->
+                                    &lt;!&ndash; /.direct-chat-msg &ndash;&gt;
 
-                                    <!-- Message to the right -->
+                                    &lt;!&ndash; Message to the right &ndash;&gt;
                                     <div class="direct-chat-msg right">
                                         <div class="direct-chat-infos clearfix">
                                             <span class="direct-chat-name float-right">Sarah Bullock</span>
                                             <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                                         </div>
-                                        <!-- /.direct-chat-infos -->
+                                        &lt;!&ndash; /.direct-chat-infos &ndash;&gt;
                                         <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
-                                        <!-- /.direct-chat-img -->
+                                        &lt;!&ndash; /.direct-chat-img &ndash;&gt;
                                         <div class="direct-chat-text">
                                             You better believe it!
                                         </div>
-                                        <!-- /.direct-chat-text -->
+                                        &lt;!&ndash; /.direct-chat-text &ndash;&gt;
                                     </div>
-                                    <!-- /.direct-chat-msg -->
+                                    &lt;!&ndash; /.direct-chat-msg &ndash;&gt;
 
-                                    <!-- Message. Default to the left -->
+                                    &lt;!&ndash; Message. Default to the left &ndash;&gt;
                                     <div class="direct-chat-msg">
                                         <div class="direct-chat-infos clearfix">
                                             <span class="direct-chat-name float-left">Alexander Pierce</span>
                                             <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                                         </div>
-                                        <!-- /.direct-chat-infos -->
+                                        &lt;!&ndash; /.direct-chat-infos &ndash;&gt;
                                         <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
-                                        <!-- /.direct-chat-img -->
+                                        &lt;!&ndash; /.direct-chat-img &ndash;&gt;
                                         <div class="direct-chat-text">
                                             Working with AdminLTE on a great new app! Wanna join?
                                         </div>
-                                        <!-- /.direct-chat-text -->
+                                        &lt;!&ndash; /.direct-chat-text &ndash;&gt;
                                     </div>
-                                    <!-- /.direct-chat-msg -->
+                                    &lt;!&ndash; /.direct-chat-msg &ndash;&gt;
 
-                                    <!-- Message to the right -->
+                                    &lt;!&ndash; Message to the right &ndash;&gt;
                                     <div class="direct-chat-msg right">
                                         <div class="direct-chat-infos clearfix">
                                             <span class="direct-chat-name float-right">Sarah Bullock</span>
                                             <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                                         </div>
-                                        <!-- /.direct-chat-infos -->
+                                        &lt;!&ndash; /.direct-chat-infos &ndash;&gt;
                                         <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
-                                        <!-- /.direct-chat-img -->
+                                        &lt;!&ndash; /.direct-chat-img &ndash;&gt;
                                         <div class="direct-chat-text">
                                             I would love to.
                                         </div>
-                                        <!-- /.direct-chat-text -->
+                                        &lt;!&ndash; /.direct-chat-text &ndash;&gt;
                                     </div>
-                                    <!-- /.direct-chat-msg -->
+                                    &lt;!&ndash; /.direct-chat-msg &ndash;&gt;
 
                                 </div>
-                                <!--/.direct-chat-messages-->
+                                &lt;!&ndash;/.direct-chat-messages&ndash;&gt;
 
-                                <!-- Contacts are loaded here -->
+                                &lt;!&ndash; Contacts are loaded here &ndash;&gt;
                                 <div class="direct-chat-contacts">
                                     <ul class="contacts-list">
                                         <li>
@@ -1070,10 +1067,10 @@
                           </span>
                                                     <span class="contacts-list-msg">How have you been? I was...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                         <li>
                                             <a href="#">
                                                 <img class="contacts-list-img" src="dist/img/user7-128x128.jpg" alt="User Avatar">
@@ -1085,10 +1082,10 @@
                           </span>
                                                     <span class="contacts-list-msg">I will be waiting for...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                         <li>
                                             <a href="#">
                                                 <img class="contacts-list-img" src="dist/img/user3-128x128.jpg" alt="User Avatar">
@@ -1100,10 +1097,10 @@
                           </span>
                                                     <span class="contacts-list-msg">I'll call you back at...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                         <li>
                                             <a href="#">
                                                 <img class="contacts-list-img" src="dist/img/user5-128x128.jpg" alt="User Avatar">
@@ -1115,10 +1112,10 @@
                           </span>
                                                     <span class="contacts-list-msg">Where is your new...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                         <li>
                                             <a href="#">
                                                 <img class="contacts-list-img" src="dist/img/user6-128x128.jpg" alt="User Avatar">
@@ -1130,10 +1127,10 @@
                           </span>
                                                     <span class="contacts-list-msg">Can I take a look at...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                         <li>
                                             <a href="#">
                                                 <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="User Avatar">
@@ -1145,16 +1142,16 @@
                           </span>
                                                     <span class="contacts-list-msg">Never mind I found...</span>
                                                 </div>
-                                                <!-- /.contacts-list-info -->
+                                                &lt;!&ndash; /.contacts-list-info &ndash;&gt;
                                             </a>
                                         </li>
-                                        <!-- End Contact Item -->
+                                        &lt;!&ndash; End Contact Item &ndash;&gt;
                                     </ul>
-                                    <!-- /.contacts-list -->
+                                    &lt;!&ndash; /.contacts-list &ndash;&gt;
                                 </div>
-                                <!-- /.direct-chat-pane -->
+                                &lt;!&ndash; /.direct-chat-pane &ndash;&gt;
                             </div>
-                            <!-- /.card-body -->
+                            &lt;!&ndash; /.card-body &ndash;&gt;
                             <div class="card-footer">
                                 <form action="#" method="post">
                                     <div class="input-group">
@@ -1165,11 +1162,11 @@
                                     </div>
                                 </form>
                             </div>
-                            <!-- /.card-footer-->
+                            &lt;!&ndash; /.card-footer&ndash;&gt;
                         </div>
-                        <!--/.direct-chat -->
+                        &lt;!&ndash;/.direct-chat &ndash;&gt;
 
-                        <!-- TO DO List -->
+                        &lt;!&ndash; TO DO List &ndash;&gt;
                         <div class="card">
                             <div class="card-header">
                                 <h3 class="card-title">
@@ -1187,25 +1184,25 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-- /.card-header -->
+                            &lt;!&ndash; /.card-header &ndash;&gt;
                             <div class="card-body">
                                 <ul class="todo-list" data-widget="todo-list">
                                     <li>
-                                        <!-- drag handle -->
+                                        &lt;!&ndash; drag handle &ndash;&gt;
                                         <span class="handle">
                       <i class="fas fa-ellipsis-v"></i>
                       <i class="fas fa-ellipsis-v"></i>
                     </span>
-                                        <!-- checkbox -->
+                                        &lt;!&ndash; checkbox &ndash;&gt;
                                         <div  class="icheck-primary d-inline ml-2">
                                             <input type="checkbox" value="" name="todo1" id="todoCheck1">
                                             <label for="todoCheck1"></label>
                                         </div>
-                                        <!-- todo text -->
+                                        &lt;!&ndash; todo text &ndash;&gt;
                                         <span class="text">Design a nice theme</span>
-                                        <!-- Emphasis label -->
+                                        &lt;!&ndash; Emphasis label &ndash;&gt;
                                         <small class="badge badge-danger"><i class="far fa-clock"></i> 2 mins</small>
-                                        <!-- General tools such as edit or delete-->
+                                        &lt;!&ndash; General tools such as edit or delete&ndash;&gt;
                                         <div class="tools">
                                             <i class="fas fa-edit"></i>
                                             <i class="fas fa-trash-o"></i>
@@ -1293,25 +1290,25 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- /.card-body -->
+                            &lt;!&ndash; /.card-body &ndash;&gt;
                             <div class="card-footer clearfix">
                                 <button type="button" class="btn btn-primary float-right"><i class="fas fa-plus"></i> Add item</button>
                             </div>
                         </div>
-                        <!-- /.card -->
+                        &lt;!&ndash; /.card &ndash;&gt;
                     </section>
-                    <!-- /.Left col -->
-                    <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                    &lt;!&ndash; /.Left col &ndash;&gt;
+                    &lt;!&ndash; right col (We are only adding the ID to make the widgets sortable)&ndash;&gt;
                     <section class="col-lg-5 connectedSortable">
 
-                        <!-- Map card -->
+                        &lt;!&ndash; Map card &ndash;&gt;
                         <div class="card bg-gradient-primary">
                             <div class="card-header border-0">
                                 <h3 class="card-title">
                                     <i class="fas fa-map-marker-alt mr-1"></i>
                                     Visitors
                                 </h3>
-                                <!-- card tools -->
+                                &lt;!&ndash; card tools &ndash;&gt;
                                 <div class="card-tools">
                                     <button type="button" class="btn btn-primary btn-sm daterange" title="Date range">
                                         <i class="far fa-calendar-alt"></i>
@@ -1320,36 +1317,36 @@
                                         <i class="fas fa-minus"></i>
                                     </button>
                                 </div>
-                                <!-- /.card-tools -->
+                                &lt;!&ndash; /.card-tools &ndash;&gt;
                             </div>
                             <div class="card-body">
                                 <div id="world-map" style="height: 250px; width: 100%;"></div>
                             </div>
-                            <!-- /.card-body-->
+                            &lt;!&ndash; /.card-body&ndash;&gt;
                             <div class="card-footer bg-transparent">
                                 <div class="row">
                                     <div class="col-4 text-center">
                                         <div id="sparkline-1"></div>
                                         <div class="text-white">Visitors</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                     <div class="col-4 text-center">
                                         <div id="sparkline-2"></div>
                                         <div class="text-white">Online</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                     <div class="col-4 text-center">
                                         <div id="sparkline-3"></div>
                                         <div class="text-white">Sales</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                 </div>
-                                <!-- /.row -->
+                                &lt;!&ndash; /.row &ndash;&gt;
                             </div>
                         </div>
-                        <!-- /.card -->
+                        &lt;!&ndash; /.card &ndash;&gt;
 
-                        <!-- solid sales graph -->
+                        &lt;!&ndash; solid sales graph &ndash;&gt;
                         <div class="card bg-gradient-info">
                             <div class="card-header border-0">
                                 <h3 class="card-title">
@@ -1369,7 +1366,7 @@
                             <div class="card-body">
                                 <canvas class="chart" id="line-chart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
                             </div>
-                            <!-- /.card-body -->
+                            &lt;!&ndash; /.card-body &ndash;&gt;
                             <div class="card-footer bg-transparent">
                                 <div class="row">
                                     <div class="col-4 text-center">
@@ -1378,29 +1375,29 @@
 
                                         <div class="text-white">Mail-Orders</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                     <div class="col-4 text-center">
                                         <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60"
                                                data-fgColor="#39CCCC">
 
                                         <div class="text-white">Online</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                     <div class="col-4 text-center">
                                         <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60"
                                                data-fgColor="#39CCCC">
 
                                         <div class="text-white">In-Store</div>
                                     </div>
-                                    <!-- ./col -->
+                                    &lt;!&ndash; ./col &ndash;&gt;
                                 </div>
-                                <!-- /.row -->
+                                &lt;!&ndash; /.row &ndash;&gt;
                             </div>
-                            <!-- /.card-footer -->
+                            &lt;!&ndash; /.card-footer &ndash;&gt;
                         </div>
-                        <!-- /.card -->
+                        &lt;!&ndash; /.card &ndash;&gt;
 
-                        <!-- Calendar -->
+                        &lt;!&ndash; Calendar &ndash;&gt;
                         <div class="card bg-gradient-success">
                             <div class="card-header border-0">
 
@@ -1408,9 +1405,9 @@
                                     <i class="far fa-calendar-alt"></i>
                                     Calendar
                                 </h3>
-                                <!-- tools card -->
+                                &lt;!&ndash; tools card &ndash;&gt;
                                 <div class="card-tools">
-                                    <!-- button with a dropdown -->
+                                    &lt;!&ndash; button with a dropdown &ndash;&gt;
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52">
                                             <i class="fas fa-bars"></i>
@@ -1429,32 +1426,32 @@
                                         <i class="fas fa-times"></i>
                                     </button>
                                 </div>
-                                <!-- /. tools -->
+                                &lt;!&ndash; /. tools &ndash;&gt;
                             </div>
-                            <!-- /.card-header -->
+                            &lt;!&ndash; /.card-header &ndash;&gt;
                             <div class="card-body pt-0">
-                                <!--The calendar -->
+                                &lt;!&ndash;The calendar &ndash;&gt;
                                 <div id="calendar" style="width: 100%"></div>
                             </div>
-                            <!-- /.card-body -->
+                            &lt;!&ndash; /.card-body &ndash;&gt;
                         </div>
-                        <!-- /.card -->
+                        &lt;!&ndash; /.card &ndash;&gt;
                     </section>
-                    <!-- right col -->
+                    &lt;!&ndash; right col &ndash;&gt;
                 </div>
-                <!-- /.row (main row) -->
-            </div><!-- /.container-fluid -->
+                &lt;!&ndash; /.row (main row) &ndash;&gt;
+            </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
         </section>
-        <!-- /.content -->
-    </div>
+        &lt;!&ndash; /.content &ndash;&gt;
+    </div>-->
     <!-- /.content-wrapper -->
-    <footer class="main-footer">
+<!--    <footer class="main-footer">
         <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
             <b>Version</b> 3.1.0
         </div>
-    </footer>
+    </footer>-->
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -1499,5 +1496,6 @@
 &lt;!&ndash; AdminLTE dashboard demo (This is only for demo purposes) &ndash;&gt;
 <script src="dist/js/pages/dashboard.js"></script>-->
 <script src="{{asset('js/app.js')}}"></script>
+</div>
 </body>
 </html>
